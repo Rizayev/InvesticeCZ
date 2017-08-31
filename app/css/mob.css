@@ -1,0 +1,75 @@
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .top-header {
+    margin-bottom: 50px; }
+    .top-header .logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+    .top-header nav {
+      text-align: center; }
+    .top-header .top-header__phone {
+      text-align: center; }
+  .header_h2 {
+    font-size: 26px;
+    line-height: 36px; }
+  .header_h3 {
+    line-height: 28px; }
+  .block-2 {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .block-3 {
+    height: auto;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .block-3 p {
+    text-align: center; }
+  .img-avatar {
+    display: block;
+    margin: 0 auto; }
+  .block-4__contact__phone {
+    margin-bottom: 20px; }
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .footer .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .footer__phone {
+    text-align: center;
+    margin-top: 0; }
+  .footer__copyright {
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .block-2__features > div {
+    margin-bottom: 45px; }
+  .block-2__features__img {
+    margin-bottom: 10px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .top-header nav ul li {
+    display: block; }
+    .top-header nav ul li:after {
+      content: none; }
+  .header_h2 {
+    font-size: 28px;
+    line-height: 28px; }
+  .header_h3 {
+    padding: 0 25px; }
+  .header_button {
+    margin-bottom: 30px; }
+  .header {
+    padding-bottom: 40px; }
+  .block-3 p > br {
+    display: none; } }
+
+/* Custom, iPhone Retina */
