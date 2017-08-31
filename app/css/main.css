@@ -10,17 +10,53 @@ h1, h2, h3, h4, p {
   background: url("../img/bg-header.jpg");
   -webkit-background-size: cover;
   background-size: cover;
-  padding-bottom: 100px; }
+  padding-bottom: 80px; }
 
 .top-header {
-  margin-bottom: 105px; }
+  margin-bottom: 105px;
+  padding-top: 18px; }
+
+.top-header nav {
+  margin-top: 10px; }
+  .top-header nav ul {
+    list-style-type: none; }
+    .top-header nav ul li {
+      text-align: center;
+      display: inline-block;
+      font-family: "Open Sans";
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-right: 20px; }
+      .top-header nav ul li a {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 300; }
+    .top-header nav ul li:after {
+      content: '|';
+      color: #fff;
+      padding-left: 20px; }
+    .top-header nav ul li:last-child:after {
+      content: none; }
+    .top-header nav ul li a:hover {
+      cursor: pointer;
+      color: #92cec2;
+      font-weight: 400;
+      text-decoration: underline; }
+
+.top-header__phone {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 11px; }
 
 .header_h2 {
   color: #fff;
   font-family: "Open Sans";
   font-size: 36px;
   font-weight: 700;
-  line-height: 58pxgul;
+  line-height: 58px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 40px; }
@@ -47,7 +83,8 @@ h1, h2, h3, h4, p {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 60px; }
 
 .block-2 {
   height: 337px;
@@ -171,3 +208,30 @@ h1, h2, h3, h4, p {
               border-radius: 10px;
       border: 1px solid #92cec2;
       background-color: #ffffff; }
+
+.footer {
+  background: url("../img/bg-footer.jpg");
+  height: 75px; }
+
+.footer .logo {
+  width: 94px;
+  height: 50px;
+  margin-top: 13px; }
+
+.footer__copyright {
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 31px; }
+
+.footer__phone {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 31px; }
+  .footer__phone img {
+    margin-right: 10px; }
