@@ -1,0 +1,173 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  background: url("../img/bg-header.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 100px; }
+
+.top-header {
+  margin-bottom: 105px; }
+
+.header_h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 58pxgul;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.header_h3 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 55px; }
+
+.header_button {
+  width: 230px;
+  height: 57px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: 1px solid #92cec2;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.block-2 {
+  height: 337px;
+  margin-top: 20px; }
+
+.block-2__h2 {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.block-2__features__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 45px; }
+
+.block-2__features__p {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center; }
+
+.block-3 {
+  background: url("../img/working-on-documents-000055713990-large.jpg");
+  height: 531px; }
+
+.block-3__h2 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 44px;
+  margin-bottom: 46px; }
+
+.block-3 p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 20px; }
+
+.block-3__diagramm {
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px; }
+
+.block-4__h2 {
+  text-align: center;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 50px; }
+
+.block-4__contact {
+  margin-top: 20px; }
+
+.block-4__contact__name {
+  color: #000000;
+  font-family: "Open Sans";
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px; }
+  .block-4__contact__name span {
+    font-size: 14px; }
+
+.block-4__contact__phone {
+  text-align: center;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.block-4__left {
+  border-right: 1px solid #000; }
+
+.block-4 {
+  padding-bottom: 40px; }
+  .block-4 form {
+    width: 270px;
+    margin: 0 auto; }
+    .block-4 form input {
+      width: 270px;
+      height: 24px;
+      display: block;
+      margin-bottom: 20px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
+      border: 1px solid #92cec2;
+      background-color: #ffffff;
+      outline: none;
+      padding-left: 10px; }
+    .block-4 form textarea {
+      width: 270px;
+      height: 54px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
+      border: 1px solid #92cec2;
+      background-color: #ffffff;
+      padding-left: 10px;
+      margin-bottom: 20px; }
+    .block-4 form button {
+      width: 130px;
+      height: 26px;
+      display: block;
+      margin: 0 auto;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
+      border: 1px solid #92cec2;
+      background-color: #ffffff; }
